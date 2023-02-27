@@ -1,4 +1,42 @@
-* {
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css");
+
+@font-face {
+  font-family: "Pretendard Variable";
+  font-weight: 45 920;
+  font-style: normal;
+  font-display: swap;
+    src: local("Pretendard Variable"), url("./images/PretendardVariable.woff2") format("woff2-variations");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("./images/Pretendard-Light.woff") format("woff");
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Pretendard";
+  src: url("./images/Pretendard-Medium.woff") format("woff");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Pretendard";
+  src: url("./images/Pretendard-Bold.woff") format("woff");
+  font-weight: 700;
+  font-display: swap;
+}
+
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font: 300 18px "Pretendard", sans-serif;
 }
