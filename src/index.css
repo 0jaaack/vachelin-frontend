@@ -40,3 +40,9 @@ html,
 body {
   font: 300 18px "Pretendard", sans-serif;
 }
+
+a {
+  text-decoration: none;
+  font: inherit;
+  color: inherit;
+}
